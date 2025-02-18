@@ -1,0 +1,99 @@
+/* Botão */
+button {
+    width: 148px;
+    height: 44px;
+    border-radius: 44px;
+    gap: 8px;
+    padding: 8px 24px;
+    background: #EA6A12;
+    border: none; 
+    color: white;
+  }
+  
+  /* Texto */
+  p {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #959895;
+  }
+  
+  h1 {
+    width: 172px;
+    height: 52px;
+    color: #07143B;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 2%;
+  }
+  
+  /* Contêiner do círculo */
+  .circula {
+    position: absolute;
+    top: -200px;
+    right: -100px;
+    width: 1025px;
+    height: 825px; /* Mantém o formato ovalado que você já tinha */
+  }
+  
+  /* Círculo de fundo */
+  .circulo {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: #FFF3EBA3;
+    overflow: hidden;
+   margin-top: 100px;
+    /* Distribui as imagens em grid (2 filas de 3 e 1 de 2) */
+    display: grid;
+
+    grid-gap: 40px;      
+                    
+    justify-content: center;                
+    align-content: center;                 
+  }
+  .tre, .tuo {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+   margin: 40px;
+  }
+  /* Imagens */
+  .circulo img {
+    width: 120px;  
+    height: 120px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    
+  }
+  
+  /* Layout geral */
+  body {
+    overflow-x: hidden;
+  }
+  
+  .success {
+    width: 540px;
+    height: 437px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  .vdd {
+    width: 86px;
+    height: 91px;
+  }
+  
+  .logo {
+    display: flex; 
+    align-self: start;
+  }
+  
+  
