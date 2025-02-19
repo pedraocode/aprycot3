@@ -96,4 +96,142 @@ button {
     align-self: start;
   }
   
+  @media screen and (max-width: 1500px) {
+    .allpage {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .circula {
+      position: static;
+      width: 925px;
+      height: 725px;
+    }
+  
+    .success {
+      margin-left: 0;
+      margin-top: 50px;
+      margin-bottom: 300px;
+      width: 440px;
+      height: 337px;
+    }
+  }
+  
+  @media screen and (max-width: 1400px) {
+    .circula {
+      width: 825px;
+      height: 625px;
+    }
+  
+    .success {
+      width: 400px;
+      height: 300px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1300px) {
+    .circula {
+      width: 725px;
+      height: 525px;
+    }
+  
+    .success {
+      width: 350px;
+      height: 260px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .circula {
+      width: 625px;
+      height: 425px;
+    }
+  
+    .success {
+      width: 300px;
+      height: 220px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .circula {
+      width: 525px;
+      height: 325px;
+    }
+  
+    .success {
+      width: 280px;
+      height: 200px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .circula {
+      width: 425px;
+      height: 275px;
+    }
+  
+    .success {
+      width: 260px;
+      height: 180px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .circula {
+      width: 325px;
+      height: 225px;
+    }
+  
+    .success {
+      width: 240px;
+      height: 160px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .circula {
+      width: 225px;
+      height: 175px;
+    }
+  
+    .success {
+      width: 220px;
+      height: 140px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .circula {
+      width: 200px;
+      height: 150px;
+    }
+  
+    .success {
+      width: 200px;
+      height: 120px;
+      margin-bottom: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .circula {
+      width: 180px;
+      height: 130px;
+    }
+  
+    .success {
+      width: 180px;
+      height: 100px;
+      margin-bottom: 300px;
+    }
+  }
   
